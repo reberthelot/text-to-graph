@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Text-to-graph · DTU</title>
+  <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+</head>
+<body>
+<header><h1><span>DTU</span> · Text-to-graph</h1><p>Inspect keyboard extractions and compare RDF triples against editable reference graphs.</p></header>
+<main>
+  <section class="card toolbar" aria-label="Service settings">
+    <label>Student extraction endpoint<input id="endpoint" type="url" value="http://localhost:8000/v1/extract" spellcheck="false"></label>
+    <label>Timeout (s)<input id="timeout" type="number" min="1" max="300" value="60"></label>
+    <label>Parallel calls<input id="parallel" type="number" min="1" max="8" value="1"></label>
+    <button id="run-all" class="primary">Run all cases</button><button id="stop" disabled>Stop after active calls</button>
+  </section>
+  <p id="status" role="status" aria-live="polite">Loading test cases…</p>
+  <div class="grid">
+    <aside class="card">
+      <h2>Test dataset</h2>
+      <p class="subtle" id="source"></p>
+      <label for="cases">Select a case</label><select id="cases" size="8"></select>
+      <div class="actions"><button id="add">Add case</button><button id="remove">Delete case</button></div>
+      <div class="actions"><label class="file-button" for="import">Import .txt</label><input id="import" type="file" accept=".txt,text/plain" hidden><button id="export">Export .txt</button></div>
+      <button id="reset">Reload server dataset</button>
+      <p class="subtle">Edits are kept in this browser. Export your dataset to keep or share a file.</p>
+      <details><summary>Scoring rules</summary><div class="subtle">
+        <p>Unique RDF triples are compared after JSON-LD expansion. Local extraction URIs and blank nodes are aligned one to one; catalogue URIs stay fixed.</p>
+        <p>Finite numerical values compare by value (7 = 7.0). Literal text, language tags and other datatypes retain RDF semantics.</p>
+        <p>Every triple counts, including labels and type statements. Additional facts count as false positives, even when an exercise calls them optional.</p>
+        <p>Both graphs empty: F1 = 1. Empty prediction with nonempty reference: precision = recall = F1 = 0.</p>
+        <p>Alignment searches up to 100,000 states or 3 seconds. If unfinished, scores are labelled lower bounds.</p>
+      </div></details>
+    </aside>
+    <section class="card">
+      <h2>Extract &amp; compare</h2>
+      <label for="name">Case name</label><input id="name">
+      <label for="text">Input text</label><textarea id="text" rows="6" placeholder="Describe a musical keyboard or an offer…"></textarea>
+      <div class="actions"><button id="extract" class="primary">Extract &amp; score</button><button id="save">Save case</button></div>
+      <div class="columns">
+        <div><label for="reference">Reference JSON-LD</label><textarea class="code" id="reference" rows="16" spellcheck="false"></textarea></div>
+        <div><label for="prediction">Student response JSON-LD (or paste one)</label><textarea class="code" id="prediction" rows="16" spellcheck="false" placeholder="The response appears here. You can also paste a response for offline comparison."></textarea></div>
+      </div>
+      <button id="compare">Compare pasted response</button>
+      <section id="score" hidden aria-label="Evaluation results">
+        <p id="score-note" class="subtle"></p><div class="metrics" id="metrics"></div>
+        <div id="diff"></div>
+        <details><summary>Local-node alignment</summary><div id="alignment" class="scroll"></div></details>
+      </section>
+    </section>
+  </div>
+  <section class="card" id="batch" hidden>
+    <h2>Dataset results</h2><p id="batch-summary" aria-live="polite"></p>
+    <button id="report">Download report JSON</button>
+    <div class="scroll"><table><thead><tr><th>Case</th><th>Precision</th><th>Recall</th><th>F1</th><th>TP / FP / FN</th><th>Time</th><th>Status</th></tr></thead><tbody id="batch-rows"></tbody></table></div>
+  </section>
+</main>
+<script src="{{ url_for('static', path='js/app.js') }}"></script>
+</body>
+</html>

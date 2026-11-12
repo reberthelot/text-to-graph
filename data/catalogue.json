@@ -1,0 +1,639 @@
+{
+  "source": "https://keyboards.wikibase.cloud/query/sparql",
+  "fetched_at": "2026-11-03T13:28:11+00:00",
+  "entities": [
+    {
+      "id": "kb:Q2",
+      "kind": "manufacturer",
+      "label": "Yamaha",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q5",
+      "kind": "manufacturer",
+      "label": "Clavia DMI",
+      "aliases": [
+        "Nord"
+      ]
+    },
+    {
+      "id": "kb:Q10",
+      "kind": "manufacturer",
+      "label": "Korg",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q16",
+      "kind": "manufacturer",
+      "label": "Roland",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q31",
+      "kind": "manufacturer",
+      "label": "Kawai",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q58",
+      "kind": "manufacturer",
+      "label": "Casio",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q59",
+      "kind": "manufacturer",
+      "label": "Kurzweil Music Systems",
+      "aliases": [
+        "Kurzweil"
+      ]
+    },
+    {
+      "id": "kb:Q67",
+      "kind": "manufacturer",
+      "label": "Alesis",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q74",
+      "kind": "manufacturer",
+      "label": "Akai",
+      "aliases": [
+        "AKAI Professional"
+      ]
+    },
+    {
+      "id": "kb:Q80",
+      "kind": "manufacturer",
+      "label": "Arturia",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q1",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha P-150",
+      "aliases": [
+        "P-150",
+        "P150"
+      ]
+    },
+    {
+      "id": "kb:Q4",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Piano 6 88",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q6",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Piano 6 73",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q7",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Organ 3",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q8",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Grand 2",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q9",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg Pa5X 61",
+      "aliases": [
+        "Pa5X 61"
+      ]
+    },
+    {
+      "id": "kb:Q12",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha CK88",
+      "aliases": [
+        "CK88"
+      ]
+    },
+    {
+      "id": "kb:Q13",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha CK61",
+      "aliases": [
+        "CK61"
+      ]
+    },
+    {
+      "id": "kb:Q15",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland FA-06",
+      "aliases": [
+        "FA-06"
+      ]
+    },
+    {
+      "id": "kb:Q17",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland FA-07",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q18",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland SH-101",
+      "aliases": [
+        "SH-101",
+        "SH101"
+      ]
+    },
+    {
+      "id": "kb:Q19",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha P-225",
+      "aliases": [
+        "P-225"
+      ]
+    },
+    {
+      "id": "kb:Q20",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha CP88",
+      "aliases": [
+        "CP-88",
+        "CP88",
+        "Yamaha CP-88",
+        "Yamaha CP-88 Stage Piano"
+      ]
+    },
+    {
+      "id": "kb:Q21",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg Kross 2-61",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q22",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha Montage M8x",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q23",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Stage 4 88",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q24",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Stage 4 73",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q25",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Stage 4 Compact",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q29",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Lead A1",
+      "aliases": [
+        "A1"
+      ]
+    },
+    {
+      "id": "kb:Q30",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Wave 2",
+      "aliases": [
+        "Wave 2"
+      ]
+    },
+    {
+      "id": "kb:Q32",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q31",
+      "label": "Kawai MP11SE",
+      "aliases": [
+        "Kawai MP-11 SE"
+      ]
+    },
+    {
+      "id": "kb:Q33",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q31",
+      "label": "Kawai MP7SE",
+      "aliases": [
+        "Kawai MP-7 SE",
+        "Kawai MP-7SE"
+      ]
+    },
+    {
+      "id": "kb:Q34",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg SV-2 88",
+      "aliases": [
+        "Korg SV2-88"
+      ]
+    },
+    {
+      "id": "kb:Q35",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg SV-2S 88",
+      "aliases": [
+        "Korg SV-2S  (88key)"
+      ]
+    },
+    {
+      "id": "kb:Q36",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha PSR-E343",
+      "aliases": [
+        "PSR-E343"
+      ]
+    },
+    {
+      "id": "kb:Q40",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg Pa700",
+      "aliases": [
+        "Korg PA-700"
+      ]
+    },
+    {
+      "id": "kb:Q45",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Electro 6D 61",
+      "aliases": [
+        "Electro 6D 61"
+      ]
+    },
+    {
+      "id": "kb:Q46",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Electro 6D 73",
+      "aliases": [
+        "Electro 6D 73"
+      ]
+    },
+    {
+      "id": "kb:Q49",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland FP-10",
+      "aliases": [
+        "FP-10"
+      ]
+    },
+    {
+      "id": "kb:Q61",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q59",
+      "label": "Kurzweil K2700",
+      "aliases": [
+        "K2700"
+      ]
+    },
+    {
+      "id": "kb:Q62",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg Wavestation EX",
+      "aliases": [
+        "Wavestation EX"
+      ]
+    },
+    {
+      "id": "kb:Q68",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q67",
+      "label": "Alesis V25 MKII",
+      "aliases": [
+        "V25 MKII"
+      ]
+    },
+    {
+      "id": "kb:Q69",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q67",
+      "label": "Alesis Prestige",
+      "aliases": [
+        "Prestige"
+      ]
+    },
+    {
+      "id": "kb:Q73",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha Motif XS7",
+      "aliases": [
+        "Motif XS7"
+      ]
+    },
+    {
+      "id": "kb:Q77",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q80",
+      "label": "Arturia Minilab 3 White",
+      "aliases": [
+        "Minilab 3"
+      ]
+    },
+    {
+      "id": "kb:Q83",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland D-50",
+      "aliases": [
+        "D-50"
+      ]
+    },
+    {
+      "id": "kb:Q84",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland GO:KEYS 3",
+      "aliases": [
+        "GO:KEYS 3",
+        "Roland GO:KEYS 5"
+      ]
+    },
+    {
+      "id": "kb:Q85",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland GO:KEYS 5",
+      "aliases": [
+        "GO:KEYS 5"
+      ]
+    },
+    {
+      "id": "kb:Q86",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg M1",
+      "aliases": [
+        "M1"
+      ]
+    },
+    {
+      "id": "kb:Q88",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha Tyros 3",
+      "aliases": [
+        "Tyros 3",
+        "Tyros3"
+      ]
+    },
+    {
+      "id": "kb:Q89",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q5",
+      "label": "Nord Lead 4",
+      "aliases": [
+        "nord lead 4"
+      ]
+    },
+    {
+      "id": "kb:Q90",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q10",
+      "label": "Korg Pa300",
+      "aliases": [
+        "Kort PA-300"
+      ]
+    },
+    {
+      "id": "kb:Q91",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q58",
+      "label": "Casio CDP-S110 BK",
+      "aliases": [
+        "Casio CDP S110"
+      ]
+    },
+    {
+      "id": "kb:Q92",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q16",
+      "label": "Roland Jupiter-6",
+      "aliases": [
+        "Jupiter 6",
+        "Jupiter-6",
+        "Jupiter6"
+      ]
+    },
+    {
+      "id": "kb:Q93",
+      "kind": "keyboard_model",
+      "label": "Yamaha PSR-E463",
+      "aliases": [
+        "E463",
+        "PSR E463",
+        "PSR-E463"
+      ]
+    },
+    {
+      "id": "kb:Q94",
+      "kind": "keyboard_model",
+      "label": "Yamaha P-250",
+      "aliases": [
+        "P-250",
+        "P250"
+      ]
+    },
+    {
+      "id": "kb:Q95",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha MODX M6",
+      "aliases": [
+        "MODX M6"
+      ]
+    },
+    {
+      "id": "kb:Q97",
+      "kind": "keyboard_model",
+      "label": "Roland FP-30",
+      "aliases": [
+        "FP-30"
+      ]
+    },
+    {
+      "id": "kb:Q98",
+      "kind": "keyboard_model",
+      "label": "Korg minilogue xd",
+      "aliases": [
+        "Korg Minilogue XD",
+        "minilogue xd"
+      ]
+    },
+    {
+      "id": "kb:Q99",
+      "kind": "keyboard_model",
+      "label": "Korg minilogue",
+      "aliases": [
+        "Korg Minilogue",
+        "Minilogue"
+      ]
+    },
+    {
+      "id": "kb:Q100",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha GS1",
+      "aliases": [
+        "GS1",
+        "Yamaha GS-1"
+      ]
+    },
+    {
+      "id": "kb:Q101",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha DX7",
+      "aliases": [
+        "DX 7",
+        "DX7"
+      ]
+    },
+    {
+      "id": "kb:Q103",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha PSR-E373",
+      "aliases": [
+        "PSR-E373"
+      ]
+    },
+    {
+      "id": "kb:Q105",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha PSR-SX620",
+      "aliases": [
+        "PSR-SX620"
+      ]
+    },
+    {
+      "id": "kb:Q106",
+      "kind": "keyboard_model",
+      "manufacturer": "kb:Q2",
+      "label": "Yamaha PSR-E583",
+      "aliases": [
+        "PSR-E583"
+      ]
+    },
+    {
+      "id": "kb:Q3",
+      "kind": "colour",
+      "label": "black",
+      "aliases": [
+        "sort"
+      ]
+    },
+    {
+      "id": "kb:Q78",
+      "kind": "colour",
+      "label": "white",
+      "aliases": [
+        "hvid"
+      ]
+    },
+    {
+      "id": "kb:Q104",
+      "kind": "colour",
+      "label": "red",
+      "aliases": [
+        "rød"
+      ]
+    },
+    {
+      "id": "kb:Q38",
+      "kind": "seller",
+      "label": "Digitalpiano.com A/S",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q50",
+      "kind": "seller",
+      "label": "Borg Sound",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q70",
+      "kind": "seller",
+      "label": "Morsø Musikhus",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q26",
+      "kind": "country",
+      "label": "Sweden",
+      "aliases": [
+        "Sverige"
+      ]
+    },
+    {
+      "id": "kb:Q27",
+      "kind": "country",
+      "label": "Japan",
+      "aliases": []
+    },
+    {
+      "id": "kb:Q39",
+      "kind": "country",
+      "label": "Denmark",
+      "aliases": [
+        "Danmark"
+      ]
+    },
+    {
+      "id": "kb:Q60",
+      "kind": "country",
+      "label": "United States of America",
+      "aliases": [
+        "USA"
+      ]
+    },
+    {
+      "id": "kb:Q81",
+      "kind": "country",
+      "label": "France",
+      "aliases": [
+        "Frankrig"
+      ]
+    }
+  ]
+}

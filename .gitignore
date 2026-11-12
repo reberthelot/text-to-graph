@@ -1,0 +1,37 @@
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ----------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- Secrets: never commit; .env.example documents the contract --------------
+.env
+.env.*
+!.env.example
+
+# --- Tooling caches ----------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Hand-in archive (git archive -o latest.zip HEAD) ------------------------
+latest.zip
+
+# --- Editors / OS ------------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- Personal (step-by-step learning guide) ----------------------------------
+MY-TODO.md
+text-to-graph.md
+text-to-graph-ui.py

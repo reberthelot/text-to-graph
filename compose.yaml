@@ -1,0 +1,50 @@
+# Wiring for the two Python services (GUIDE section 10).
+#
+#   browser -> frontend :8080 --HTTP--> text2graph :8000 -> CampusAI LLM
+#                  |                          |
+#                  +- RDF scoring (rdflib)    +- data/catalogue.json (read-only)
+#
+# Run:  docker compose up --build
+# Then: http://localhost:8080
+
+services:
+  text2graph:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      target: text2graph
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env                    # CAMPUSAI_* secrets, never committed
+        required: false
+    environment:
+      LOG_LEVEL: INFO
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=4)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      target: frontend
+    ports:
+      - "8080:8080"
+    environment:
+      # Default endpoint shown in the UI. Requests are made by the frontend's
+      # Python process, i.e. from inside this container.
+      STUDENT_URL: http://text2graph:8000/v1/extract   # Compose DNS
+      LOG_LEVEL: INFO
+    depends_on:
+      text2graph:
+        condition: service_healthy       # wait for a real /health, not just "up"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/api/health', timeout=4)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s

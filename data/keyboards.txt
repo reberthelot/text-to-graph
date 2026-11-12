@@ -1,0 +1,351 @@
+Yamaha GS1 weighs 90 kg
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/df5a9e86-2ce1-4bfc-8596-86e01af8527c/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "kb:Q100",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P6": {
+        "@id": "kb:Q2"
+      },
+      "kbt:P7": 90
+    }
+  ]
+}
+
+
+Roland Jupiter-08 has just 25 keys
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/f0f37691-c07a-459a-aaa5-42e8e262a927/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "model/1",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "rdfs:label": {
+        "@value": "Roland Jupiter-08",
+        "@language": "en"
+      },
+      "kbt:P1": 25,
+      "kbt:P6": {
+        "@id": "kb:Q16"
+      }
+    }
+  ]
+}
+
+
+Yamaha XSR900 2027 has a motor on 890 cc and weighs 193 kg
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/8a6a742a-bf74-435d-b8ab-1b6ac0f768b3/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": []
+}
+
+
+Der er kun 32 tangenter på et Roland SH-101.
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/923d9fa7-a76f-4fff-ba1f-32a8801c7064/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "kb:Q18",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P1": 32,
+      "kbt:P6": {
+        "@id": "kb:Q16"
+      }
+    }
+  ]
+}
+
+
+Morsø Musikhus sells a Yamaha PSR-E-583 for 4595 see http://momuhu.dk/index.php?route=product/product&path=59&product_id=1344
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/25ce35b9-d17b-4d1a-9d81-d568e212414b/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "offer/1",
+      "kbt:P11": {
+        "@id": "kb:Q42"
+      },
+      "kbt:P24": {
+        "@id": "kb:Q106"
+      },
+      "kbt:P23": {
+        "@id": "kb:Q70"
+      },
+      "kbt:P5": {
+        "@id": "http://momuhu.dk/index.php?route=product/product&path=59&product_id=1344"
+      },
+      "kbt:P25": 4595
+    }
+  ]
+}
+
+
+Looking for a first keyboard that offers room to grow? The Yamaha PSR-E373 is a black portable keyboard with 61 touch-sensitive keys. Its 622 instrument voices and 205 accompaniment styles give you plenty to explore, while the lesson functions help you practise. Duo mode also lets two people play together.
+
+It is reasonably easy to carry: the instrument weighs 4.6 kg without batteries. Allow 94.5 cm of space from left to right and 36.9 cm from front to back; the keyboard itself stands 11.8 cm high. Its maximum polyphony is 48 notes—different from the number of sounds available to choose from.
+
+You can play through the two built-in speakers, each measuring 12 cm across. Their amplifiers are rated at 2.5 W per channel. For quiet practice, there is one standard stereo headphone socket. That same PHONES/OUTPUT socket can instead send the sound to external equipment, so these are two uses of a single physical connector.
+
+There is also one stereo mini-jack AUX input for an external audio source. USB TO HOST supports MIDI and digital audio transfer in both directions, making it useful for connecting to a computer.
+
+The keyboard runs from a compatible mains adaptor or six AA batteries. Yamaha specifies power consumption of 5 W when using the PA-130 adaptor. A music rest is included, and the song book is available to download.
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/11ce35b9-d17b-4d1a-9d81-d568e212414b/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "1",
+      "rdfs:label": {
+        "@value": "PSR-E373",
+        "@language": "en"
+      },
+      "kbt:P1": 61,
+      "kbt:P2": 945,
+      "kbt:P3": 369,
+      "kbt:P4": 118,
+      "kbt:P6": {"@id": "kb:Q2"},
+      "kbt:P7": 4.6,
+      "kbt:P8": 48,
+      "kbt:P9": {"@id": "kb:Q3"},
+      "kbt:P10": 2,
+      "kbt:P11": {"@id": "kb:Q14"},
+      "kbt:P13": 1,
+      "kbt:P16": 5,
+      "kbt:P20": 1,
+      "kbt:P22": 1
+    }
+  ]
+}
+
+
+The Yamaha PSR-E483 and PSR-E583 look like close relatives on paper, and choosing between these two keyboard models involves more than counting keys. Both have 61 touch-sensitive keys and can sound up to 64 notes simultaneously. The E483 offers 860 voices, while the E583 increases that selection to 890.
+
+Neither model saves you any desk space over the other. Each measures 99.2 cm across, 40.4 cm from front to back and 13.6 cm high. The PSR-E483 is slightly lighter at 7.0 kg; the PSR-E583 weighs 7.3 kg. Those weights exclude batteries. If you are arranging delivery, avoid confusing the instrument dimensions with the packaging: both boxes measure 1068 × 500 × 216 mm in width, depth and height.
+
+The sound systems are a more noticeable difference. Each keyboard contains two speakers with a diameter of 12 cm, but the E483 has two 6 W amplifier channels, compared with two 12 W channels on the E583. Despite that difference, Yamaha lists power consumption as 13 W for each model, using the PA-150C adaptor for the E483 and the PA-300C for the E583.
+
+The physical audio connections are the same on both instruments: one headphone socket, two separate line-output sockets labelled L/L+R and R, one stereo mini-jack AUX input, and one microphone input. The stereo AUX connection is a single socket, not two inputs.
+
+Both models also provide a USB Type-A connection for a flash drive and a USB Type-C connection to a computer. The computer connection supports a stereo USB audio interface at 44.1 kHz and 16 bits. The E583 adds a modulation wheel and support for an expression pedal, whereas the E483 has neither. Both can run on six AA batteries.
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/22ce35b9-d17b-4d1a-9d81-d568e212414b/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "model/PSR-E483",
+      "rdfs:label": {
+        "@value": "PSR-E483",
+        "@language": "en"
+      },
+      "kbt:P1": 61,
+      "kbt:P2": 992,
+      "kbt:P3": 404,
+      "kbt:P4": 136,
+      "kbt:P6": {"@id": "kb:Q2"},
+      "kbt:P7": 7.0,
+      "kbt:P8": 64,
+      "kbt:P10": 2,
+      "kbt:P11": {"@id": "kb:Q14"},
+      "kbt:P13": 1,
+      "kbt:P16": 13,
+      "kbt:P20": 2,
+      "kbt:P21": 1,
+      "kbt:P22": 1
+    },
+    {
+      "@id": "kb:Q106",
+      "rdfs:label": {
+        "@value": "PSR-E583",
+        "@language": "en"
+      },
+      "kbt:P1": 61,
+      "kbt:P2": 992,
+      "kbt:P3": 404,
+      "kbt:P4": 136,
+      "kbt:P6": {"@id": "kb:Q2"},
+      "kbt:P7": 7.3,
+      "kbt:P8": 64,
+      "kbt:P10": 2,
+      "kbt:P11": {"@id": "kb:Q14"},
+      "kbt:P13": 1,
+      "kbt:P16": 13,
+      "kbt:P20": 2,
+      "kbt:P21": 1,
+      "kbt:P22": 1
+    }
+  ]
+}
+
+
+Jeg sælger mit røde Nord Stage 4 med 88 tangenter, da jeg ikke får det brugt nok. Det står i rigtig pæn stand med enkelte små brugsspor og har kun været brugt hjemme.
+
+Der er separate sektioner til piano, orgel og synthesizer samt masser af muligheder for at justere lyde og effekter. Et godt instrument, men mere end jeg har brug for.
+
+Kan afhentes og prøves i Odense efter aftale. Strømkabel medfølger. Prisen er uden stativ.
+
+Sælges for 26.500 kr.
+
+Annonce opdateret: 18. oktober 2026.
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/334d63d6-698f-4c3e-b82a-9e53407eda6f/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/"
+  },
+  "@graph": [
+    {
+      "@id": "kb:Q23",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P9": {
+        "@id": "kb:Q104"
+      },
+      "kbt:P1": 88,
+      "kbt:P6": {
+        "@id": "kb:Q5"
+      }
+    },  
+    {
+      "@id": "offer/1",
+      "kbt:P11": {"@id": "kb:Q42"},
+      "kbt:P24": {"@id": "kb:Q23"},
+      "kbt:P25": 26500,
+      "kbt:P26": {
+        "@value": "2026-10-18",
+        "@type": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    }
+  ]
+}
+
+
+From https://www.inside.dtu.dk/services/meddelelser/koeb-salg-mv/roland-sh101-for-sale?msgid=4845f9db-c725-4faf-97b9-f460b85a1093
+
+Jeg sælger min gamle roland sh101 for 2500. Jeg købte den for 1000 :)
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/2a4d63d6-698f-4c3e-b82a-9e53407eda6f/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "offer/1",
+      "kbt:P11": {
+        "@id": "kb:Q42"
+      },
+      "kbt:P24": {
+        "@id": "kb:Q18"
+      },
+      "kbt:P5": {
+        "@id": "https://www.inside.dtu.dk/services/meddelelser/koeb-salg-mv/roland-sh101-for-sale?msgid=4845f9db-c725-4faf-97b9-f460b85a1093"
+      },
+      "kbt:P25": 2500
+    }
+  ]
+}
+
+
+The three different Nord Stage 4 models all lack load speekers.
+
+
+{
+  "@context": {
+    "@base": "https://example.org/keyboards/extraction/4590e1cf-ec6a-46a0-97c6-da2a216feaf1/",
+    "kb": "https://keyboards.wikibase.cloud/entity/",
+    "kbt": "https://keyboards.wikibase.cloud/prop/direct/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@graph": [
+    {
+      "@id": "kb:Q24",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P6": {
+        "@id": "kb:Q5"
+      },
+      "kbt:P10": 0
+    },
+    {
+      "@id": "kb:Q23",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P6": {
+        "@id": "kb:Q5"
+      },
+      "kbt:P10": 0
+    },
+    {
+      "@id": "kb:Q25",
+      "kbt:P11": {
+        "@id": "kb:Q14"
+      },
+      "kbt:P6": {
+        "@id": "kb:Q5"
+      },
+      "kbt:P10": 0
+    }
+  ]
+}
